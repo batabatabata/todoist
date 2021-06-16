@@ -1,0 +1,13 @@
+.taskList {
+  &__container {
+    max-width: 800px;
+    width: 80vw;
+    padding: 36px 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__list {
+    padding-left: 30px;
+  }
+}

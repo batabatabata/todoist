@@ -1,0 +1,38 @@
+.item {
+  display: flex;
+  border-bottom: 2px solid #f0f0f0;
+
+  &__arrowIconWrapper {
+    position: relative;
+  }
+
+  &__arrowIcon {
+    position: absolute;
+    left: -15px;
+    transform: translateY(80%);
+  }
+
+  &__checkbox {
+    margin-top: 5px;
+  }
+
+  &--layer1 {
+    padding-left: 0px;
+  }
+
+  &--layer2 {
+    padding-left: 20px;
+  }
+
+  &--layer3 {
+    padding-left: 40px;
+  }
+
+  &--layer4 {
+    padding-left: 60px;
+  }
+
+  &--layer5 {
+    padding-left: 80px;
+  }
+}
